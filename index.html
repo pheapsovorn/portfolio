@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Profile Website</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- your css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ===== NAV ===== -->
+    <header id="header">
+      <section class="Nav">
+        <div class="profile">
+          <img
+            src="img/photo_2026-07-14_17-27-41.jpg"
+            alt="Pheap Sovorn Profile"
+          />
+          <h2>PHEAP SOVORN</h2>
+        </div>
+
+        <div class="home" id="nav">
+          <ul>
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#project" class="nav-link">Project</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="moreinfo">
+          <a href="https://t.me/PheapSovorn" target="_blank">
+            <img
+              src="https://www.svgrepo.com/show/441757/telegram.svg"
+              alt="Telegram"
+            />
+          </a>
+          <a href="https://github.com/" target="_blank">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg"
+              alt="GitHub"
+            />
+          </a>
+        </div>
+
+        <!-- Mobile Menu Hamburger Button -->
+        <button id="menuBtn" class="menu-btn" aria-label="Toggle Menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </section>
+
+      <!-- Scroll Progress Bar -->
+      <div id="progress" class="progress-bar"></div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <div class="hero" id="home">
+      <div class="hero-text">
+        <p>
+          Hello, I’m <span>Sovorn</span> —
+          <span id="typed"></span>
+        </p>
+
+        <!-- ✅ Anchor styled as button — valid HTML, always navigates -->
+        <a
+          class="button-52"
+          href="https://t.me/PheapSovorn"
+          target="_blank"
+          rel="noopener noreferrer"
+          role="button"
+        >
+          Contact Me
+        </a>
+      </div>
+
+      <div class="hero-images hero-visual">
+        <div class="code-window">
+          <!-- Floating technology icons -->
+          <div class="tech-icon html-icon" title="HTML5">
+            <img src="img/HTML.png" alt="" />
+          </div>
+          <div class="tech-icon css-icon" title="CSS3">
+            <img src="img/CSS.png" alt="" />
+          </div>
+          <div class="tech-icon js-icon" title="JavaScript">
+            <img src="img/Java.png" alt="" />
+          </div>
+          <div class="tech-icon react-icon" title="React.js">
+            <img src="img/React.png" alt="" />
+          </div>
+
+          <!-- Your original photo -->
+          <img
+            class="main-photo"
+            src="img/photo_2026-07-14_17-27-41-removebg-preview.png"
+            alt="Sovorn"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="title section-heading" id="about">
+      <h1>ABOUT</h1>
+    </div>
+
+    <section class="about">
+      <img src="img/Hero.png" alt="Portrait of Pheap Sovorn" />
+
+      <div class="about-text">
+        <p>
+          My name is Pheap Sovorn, and I am from Siem Reap, Cambodia. I
+          graduated from high school in 2025, having studied at Damdek High
+          School and Kien Sangke High School. I am currently a third-year
+          Information Technology student at the Institute of Management Science
+          and Economics (IMSE).
+        </p>
+        <p>
+          Although I have not yet gained professional experience in the IT
+          industry, I am passionate about technology, eager to learn new skills,
+          and excited to apply my knowledge to real-world projects. In addition,
+          I have one and a half years of experience working as a receptionist,
+          which helped me develop my communication, customer service, and
+          problem-solving skills.
+        </p>
+        <p>
+          I am looking forward to new opportunities where I can grow as an IT
+          professional, gain hands-on experience, and contribute to meaningful
+          projects while continuously improving my skills.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <div class="title section-heading" id="skills">
+      <h1>SKILL</h1>
+    </div>
+    <div class="skills">
+      <div class="skill">
+        <img src="img/HTML.png" alt="" />
+        <img src="img/CSS.png" alt="" />
+        <img src="img/Java.png" alt="" />
+        <img src="img/Node.png" alt="" />
+        <img src="img/React.png" alt="" />
+        <img src="img/MySQL.png" alt="" />
+        <!-- duplicate set for seamless marquee loop -->
+        <img src="img/HTML.png" alt="" />
+        <img src="img/CSS.png" alt="" />
+        <img src="img/Java.png" alt="" />
+        <img src="img/Node.png" alt="" />
+        <img src="img/React.png" alt="" />
+        <img src="img/MySQL.png" alt="" />
+      </div>
+    </div>
+
+    <!-- ===== PROJECTS ===== -->
+    <div class="title section-heading" id="project">
+      <h1>PROJECTS</h1>
+    </div>
+
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-heading projects-heading">
+          <h2>
+            Things I've
+            <span>built.</span>
+          </h2>
+
+          <p>
+            A collection of projects I've worked on while studying Software
+            Development.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- PROJECT 01 -->
+          <article class="project-card">
+            <div class="project-preview preview-1">
+              <div class="browser-bar">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+
+              <div class="preview-content">
+                <div class="preview-line large"></div>
+                <div class="preview-line"></div>
+                <div class="preview-line short"></div>
+
+                <div class="preview-boxes">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <span class="project-number">01</span>
+              <h3>Personal Profile Website</h3>
+              <p>
+                A responsive personal portfolio website built with HTML, CSS and
+                JavaScript.
+              </p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <a
+                href="https://pheapsovorn.github.io/portfolio/"
+                class="project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Project →
+              </a>
+            </div>
+          </article>
+
+          <!-- PROJECT 02 -->
+          <article class="project-card">
+            <div class="project-preview preview-8">
+              <div class="store-preview">
+                <div class="store-logo">CARSTORE</div>
+
+                <div class="store-products">
+                  <div><span></span></div>
+                  <div><span></span></div>
+                  <div><span></span></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <span class="project-number">02</span>
+              <h3>Carstore</h3>
+              <p>
+                E-commerce style project with products, cart and checkout flow.
+              </p>
+              <div class="project-tags">
+                <span>React</span>
+                <span>CSS</span>
+                <span>API</span>
+              </div>
+              <a
+                href="https://carstore-wine.vercel.app/"
+                class="project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Project →
+              </a>
+            </div>
+          </article>
+
+          <!-- PROJECT 03 -->
+          <article class="project-card">
+            <div class="project-preview preview-9">
+              <div class="kno-preview">
+                <div class="kno-logo">STORE</div>
+
+                <div class="kno-lines">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <span class="project-number">03</span>
+              <h3>Store Website</h3>
+              <p>A Store website where users can buy my own products.</p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <a
+                href="https://store-umber-eight-48.vercel.app/"
+                class="project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Project →
+              </a>
+            </div>
+          </article>
+
+          <!-- PROJECT 04 -->
+          <article class="project-card">
+            <div class="project-preview preview-10">
+              <div class="aya-preview">
+                <div class="aya-logo">ALLYOUWANT</div>
+
+                <div class="aya-pills">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+
+                <div class="aya-bar"></div>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <span class="project-number">04</span>
+              <h3>Allyouwant Website</h3>
+              <p>
+                A modern responsive website with a clean layout and easy
+                browsing.
+              </p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <a
+                href="#"
+                class="project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Project →
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- ===== CONTACT ===== -->
+    <section class="contact section-heading" id="contact">
+      <div class="title section-heading">
+        <h1>CONTACT</h1>
+      </div>
+
+      <div class="contact-wrapper">
+        <div class="name">
+          <p>PHEAP SOVORN</p>
+          <p>SIEM REAP</p>
+          <p>MONDAY - SUNDAY</p>
+        </div>
+
+        <form id="contactForm" novalidate>
+          <h2>Let's work together</h2>
+          <div
+            id="formMessage"
+            class="form-message"
+            role="status"
+            aria-live="polite"
+          ></div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName"
+                >First Name <span class="req">*</span></label
+              >
+              <input
+                type="text"
+                id="firstName"
+                name="firstName"
+                placeholder="First Name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name <span class="req">*</span></label>
+              <input
+                type="text"
+                id="lastName"
+                name="lastName"
+                placeholder="Last Name"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="service">Service</label>
+            <select name="service" id="service">
+              <option value="" disabled selected>Select a service</option>
+              <option value="website">Website</option>
+              <option value="mobile-app">Mobile App</option>
+              <option value="portfolio">Portfolio</option>
+              <option value="poster">Poster</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email <span class="req">*</span></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="example@gmail.com"
+              required
+              autocomplete="off"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number <span class="req">*</span></label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Enter your phone"
+              required
+              autocomplete="off"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Project Description</label>
+            <textarea
+              name="message"
+              id="message"
+              rows="4"
+              placeholder="Write any additional notes here..."
+            ></textarea>
+          </div>
+
+          <label class="check">
+            <input type="checkbox" name="signup" />
+            <span>Sign up for news and updates</span>
+          </label>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ===== BACK TO TOP BUTTON ===== -->
+    <button id="toTop" aria-label="Back to top">↑</button>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <div class="foot">
+        <!-- Profile -->
+        <div class="foot-col img-profile">
+          <img
+            src="img/photo_2026-07-14_17-27-41-removebg-preview.png"
+            alt="Pheap Sovorn"
+          />
+          <h4>PHEAP SOVORN</h4>
+          <a href="tel:+855885136733">+855 885 136 733</a>
+          <a href="mailto:pheapsovorn@gmail.com">pheapsovorn@gmail.com</a>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="foot-col navigation" aria-label="Footer navigation">
+          <h4>Navigation</h4>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <!-- Skills -->
+        <div class="foot-col skill-info">
+          <h4>Skills</h4>
+          <div class="skill-list">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Node.js</span>
+            <span>React</span>
+            <span>MySQL</span>
+            <span>Python</span>
+            <span>Photoshop</span>
+            <span>Illustrator</span>
+          </div>
+        </div>
+
+        <!-- Social -->
+        <div class="foot-col media">
+          <h4>Social</h4>
+          <a href="#"><img src="img/facebook.svg" alt="" />Facebook</a>
+          <a href="#"><img src="img/threads.svg" alt="" />Threads</a>
+          <a href="#"><img src="img/twitter-x.svg" alt="" />X</a>
+          <a href="#"><img src="img/whatsapp.svg" alt="" />WhatsApp</a>
+          <a href="#"><img src="img/telegram.svg" alt="" />Telegram</a>
+          <a href="mailto:pheapsovorn@gmail.com"
+            ><img src="img/google.svg" alt="" />Email</a
+          >
+        </div>
+      </div>
+
+      <div class="foot-bottom">
+        <p>© 2026 Pheap Sovorn. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
