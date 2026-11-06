@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Profile Website</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ===== NAV ===== -->
+    <header id="header">
+      <section class="Nav">
+        <div class="profile">
+          <img src="img/photo_2026-07-14_17-27-41.jpg" alt="Pheap Sovorn Profile" />
+          <h2 data-en="PHEAP SOVORN" data-kh="ភាព សុវ័ណ្ឌ">PHEAP SOVORN</h2>
+        </div>
+
+        <div class="home" id="nav">
+          <ul>
+            <li><a href="#home" class="nav-link active" data-en="Home" data-kh="ទំព័រដើម">Home</a></li>
+            <li><a href="#about" class="nav-link" data-en="About" data-kh="អំពី">About</a></li>
+            <li><a href="#skills" class="nav-link" data-en="Skills" data-kh="ជំនាញ">Skills</a></li>
+            <li><a href="#project" class="nav-link" data-en="Project" data-kh="គម្រោង">Project</a></li>
+            <li><a href="#contact" class="nav-link" data-en="Contact" data-kh="ទំនាក់ទំនង">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="moreinfo">
+          <a href="https://t.me/PheapSovorn" target="_blank">
+            <img src="https://www.svgrepo.com/show/441757/telegram.svg" alt="Telegram" />
+          </a>
+          <a href="https://github.com/" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" alt="GitHub" />
+          </a>
+        </div>
+
+        <!-- ✅ Language switch -->
+        <div class="lang-switch" role="group" aria-label="Language switch">
+          <button class="lang-btn active" data-lang="en" type="button">EN</button>
+          <button class="lang-btn" data-lang="kh" type="button">KH</button>
+        </div>
+
+        <button
+          id="menuBtn"
+          class="menu-btn"
+          aria-label="Toggle Menu"
+          data-en-aria="Toggle Menu"
+          data-kh-aria="បិទបើកម៉ឺនុយ"
+        >
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </section>
+
+      <div id="progress" class="progress-bar"></div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <div class="hero" id="home">
+      <div class="hero-text">
+        <p>
+          <span data-en="Hello, I’m " data-kh="សួស្តី ខ្ញុំឈ្មោះ ">Hello, I’m </span>
+          <span class="hero-name">Sovorn</span>
+          <span data-en=" — " data-kh=" — "> — </span>
+          <span id="typed"></span>
+        </p>
+
+        <a
+          class="button-52"
+          href="https://t.me/PheapSovorn"
+          target="_blank"
+          rel="noopener noreferrer"
+          role="button"
+          data-en="Contact Me"
+          data-kh="ទំនាក់ទំនងខ្ញុំ"
+        >
+          Contact Me
+        </a>
+      </div>
+
+      <div class="hero-images hero-visual">
+        <div class="code-window">
+          <div class="tech-icon html-icon" title="HTML5"><img src="img/HTML.png" alt="" /></div>
+          <div class="tech-icon css-icon" title="CSS3"><img src="img/CSS.png" alt="" /></div>
+          <div class="tech-icon js-icon" title="JavaScript"><img src="img/Java.png" alt="" /></div>
+          <div class="tech-icon react-icon" title="React.js"><img src="img/React.png" alt="" /></div>
+
+          <img
+            class="main-photo"
+            src="img/photo_2026-07-14_17-27-41-removebg-preview.png"
+            alt="Sovorn"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="title section-heading" id="about">
+      <h1 data-en="ABOUT" data-kh="អំពី">ABOUT</h1>
+    </div>
+
+    <section class="about">
+      <img src="img/Hero.png" alt="Portrait of Pheap Sovorn" />
+
+      <div class="about-text">
+        <p data-en="My name is Pheap Sovorn, and I am from Siem Reap, Cambodia. I graduated from high school in 2025, having studied at Damdek High School and Kien Sangke High School. I am currently a third-year Information Technology student at the Institute of Management Science and Economics (IMSE)."
+           data-kh="ខ្ញុំឈ្មោះ ភាព សុវ័ណ្ឌ ហើយខ្ញុំមកពីខេត្តសៀមរាប ប្រទេសកម្ពុជា។ ខ្ញុំបានបញ្ចប់ការសិក្សានៅវិទ្យាល័យនៅឆ្នាំ 2025 ដោយបានសិក្សានៅវិទ្យាល័យដំដែក និងវិទ្យាល័យកៀនសង្កែ។ បច្ចុប្បន្នខ្ញុំជានិស្សិតឆ្នាំទីបីផ្នែកបច្ចេកវិទ្យាព័ត៌មាននៅវិទ្យាស្ថានគ្រប់គ្រងវិទ្យាសាស្ត្រ និងសេដ្ឋកិច្ច (IMSE)។">
+          My name is Pheap Sovorn, and I am from Siem Reap, Cambodia. I graduated from high school in 2025, having studied at Damdek High School and Kien Sangke High School. I am currently a third-year Information Technology student at the Institute of Management Science and Economics (IMSE).
+        </p>
+        <p data-en="Although I have not yet gained professional experience in the IT industry, I am passionate about technology, eager to learn new skills, and excited to apply my knowledge to real-world projects. In addition, I have one and a half years of experience working as a receptionist, which helped me develop my communication, customer service, and problem-solving skills."
+           data-kh="ទោះបីជាខ្ញុំមិនទាន់មានបទពិសោធន៍វិជ្ជាជីវៈក្នុងឧស្សាហកម្មព័ត៌មានវិទ្យាក៏ដោយ ក៏ខ្ញុំមានចំណង់ចំណូលចិត្តខ្លាំងចំពោះបច្ចេកវិទ្យា ចង់រៀនជំនាញថ្មីៗ និងរំភើបក្នុងការអនុវត្តចំណេះដឹងរបស់ខ្ញុំទៅលើគម្រោងជាក់ស្តែង។ លើសពីនេះ ខ្ញុំមានបទពិសោធន៍មួយឆ្នាំកន្លះក្នុងការធ្វើការជាអ្នកទទួលភ្ញៀវ ដែលបានជួយខ្ញុំអភិវឌ្ឍជំនាញទំនាក់ទំនង សេវាអតិថិជន និងការដោះស្រាយបញ្ហា។">
+          Although I have not yet gained professional experience in the IT industry, I am passionate about technology, eager to learn new skills, and excited to apply my knowledge to real-world projects. In addition, I have one and a half years of experience working as a receptionist, which helped me develop my communication, customer service, and problem-solving skills.
+        </p>
+        <p data-en="I am looking forward to new opportunities where I can grow as an IT professional, gain hands-on experience, and contribute to meaningful projects while continuously improving my skills."
+           data-kh="ខ្ញុំទន្ទឹងរង់ចាំឱកាសថ្មីៗ ដែលខ្ញុំអាចរីកចម្រើនជាអ្នកជំនាញផ្នែកព័ត៌មានវិទ្យា ទទួលបានបទពិសោធន៍ផ្ទាល់ និងរួមចំណែកដល់គម្រោងដែលមានអត្ថន័យ ខណៈពេលកែលម្អជំនាញរបស់ខ្ញុំជាបន្តបន្ទាប់។">
+          I am looking forward to new opportunities where I can grow as an IT professional, gain hands-on experience, and contribute to meaningful projects while continuously improving my skills.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <div class="title section-heading" id="skills">
+      <h1 data-en="SKILL" data-kh="ជំនាញ">SKILL</h1>
+    </div>
+    <div class="skills">
+      <div class="skill">
+        <img src="img/HTML.png" alt="" />
+        <img src="img/CSS.png" alt="" />
+        <img src="img/Java.png" alt="" />
+        <img src="img/Node.png" alt="" />
+        <img src="img/React.png" alt="" />
+        <img src="img/MySQL.png" alt="" />
+        <img src="img/HTML.png" alt="" />
+        <img src="img/CSS.png" alt="" />
+        <img src="img/Java.png" alt="" />
+        <img src="img/Node.png" alt="" />
+        <img src="img/React.png" alt="" />
+        <img src="img/MySQL.png" alt="" />
+      </div>
+    </div>
+
+    <!-- ===== PROJECTS ===== -->
+    <div class="title section-heading" id="project">
+      <h1 data-en="PROJECTS" data-kh="គម្រោង">PROJECTS</h1>
+    </div>
+
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-heading projects-heading">
+          <h2>
+            <span data-en="Things I've " data-kh="អ្វីដែលខ្ញុំបាន ">Things I've </span>
+            <span class="hl" data-en="built." data-kh="បង្កើត។">built.</span>
+          </h2>
+
+          <p data-en="A collection of projects I've worked on while studying Software Development."
+             data-kh="បណ្តុំគម្រោងដែលខ្ញុំបានធ្វើការលើ ខណៈពេលសិក្សាអភិវឌ្ឍន៍កម្មវិធី។">
+            A collection of projects I've worked on while studying Software
+            Development.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- PROJECT 01 -->
+          <article class="project-card">
+            <div class="project-preview preview-1">
+              <div class="browser-bar"><span></span><span></span><span></span></div>
+              <div class="preview-content">
+                <div class="preview-line large"></div>
+                <div class="preview-line"></div>
+                <div class="preview-line short"></div>
+                <div class="preview-boxes"><div></div><div></div><div></div></div>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <span class="project-number">01</span>
+              <h3 data-en="Personal Profile Website" data-kh="គេហទំព័រប្រវត្តិរូបផ្ទាល់ខ្លួន">Personal Profile Website</h3>
+              <p data-en="A responsive personal portfolio website built with HTML, CSS and JavaScript."
+                 data-kh="គេហទំព័រផលប័ត្រផ្ទាល់ខ្លួនដែលឆ្លើយតប សាងសង់ដោយ HTML, CSS និង JavaScript។">
+                A responsive personal portfolio website built with HTML, CSS and
+                JavaScript.
+              </p>
+              <div class="project-tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <a href="https://pheapsovorn.github.io/portfolio/" class="project-link" target="_blank" rel="noopener noreferrer"
+                 data-en="View Project →" data-kh="មើលគម្រោង →">
+                View Project →
+              </a>
+            </div>
+          </article>
+
+          <!-- PROJECT 02 -->
+          <article class="project-card">
+            <div class="project-preview preview-8">
+              <div class="store-preview">
+                <div class="store-logo">CARSTORE</div>
+                <div class="store-products"><div><span></span></div><div><span></span></div><div><span></span></div></div>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <span class="project-number">02</span>
+              <h3 data-en="Carstore" data-kh="Carstore">Carstore</h3>
+              <p data-en="E-commerce style project with products, cart and checkout flow."
+                 data-kh="គម្រោងបែបពាណិជ្ជកម្មអេឡិចត្រូនិក ជាមួយផលិតផល កន្ត្រក និងដំណើរការទូទាត់។">
+                E-commerce style project with products, cart and checkout flow.
+              </p>
+              <div class="project-tags">
+                <span>React</span><span>CSS</span><span>API</span>
+              </div>
+              <a href="https://carstore-wine.vercel.app/" class="project-link" target="_blank" rel="noopener noreferrer"
+                 data-en="View Project →" data-kh="មើលគម្រោង →">
+                View Project →
+              </a>
+            </div>
+          </article>
+
+          <!-- PROJECT 03 -->
+          <article class="project-card">
+            <div class="project-preview preview-9">
+              <div class="kno-preview">
+                <div class="kno-logo">STORE</div>
+                <div class="kno-lines"><span></span><span></span><span></span></div>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <span class="project-number">03</span>
+              <h3 data-en="Store Website" data-kh="គេហទំព័រហាង">Store Website</h3>
+              <p data-en="A Store website where users can buy my own products."
+                 data-kh="គេហទំព័រហាង ដែលអ្នកប្រើប្រាស់អាចទិញផលិតផលរបស់ខ្ញុំ។">
+                A Store website where users can buy my own products.
+              </p>
+              <div class="project-tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <a href="https://store-umber-eight-48.vercel.app/" class="project-link" target="_blank" rel="noopener noreferrer"
+                 data-en="View Project →" data-kh="មើលគម្រោង →">
+                View Project →
+              </a>
+            </div>
+          </article>
+
+          <!-- PROJECT 04 -->
+          <article class="project-card">
+            <div class="project-preview preview-10">
+              <div class="aya-preview">
+                <div class="aya-logo">ALLYOUWANT</div>
+                <div class="aya-pills"><span></span><span></span><span></span></div>
+                <div class="aya-bar"></div>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <span class="project-number">04</span>
+              <h3 data-en="Allyouwant Website" data-kh="គេហទំព័រ Allyouwant">Allyouwant Website</h3>
+              <p data-en="A modern responsive website with a clean layout and easy browsing."
+                 data-kh="គេហទំព័រទំនើបដែលឆ្លើយតប ជាមួយប្លង់ស្អាត និងងាយស្រួលរកមើល។">
+                A modern responsive website with a clean layout and easy browsing.
+              </p>
+              <div class="project-tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <a href="#" class="project-link" target="_blank" rel="noopener noreferrer"
+                 data-en="View Project →" data-kh="មើលគម្រោង →">
+                View Project →
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact section-heading" id="contact">
+      <div class="title section-heading">
+        <h1 data-en="CONTACT" data-kh="ទំនាក់ទំនង">CONTACT</h1>
+      </div>
+
+      <div class="contact-wrapper">
+        <div class="name">
+          <p data-en="PHEAP SOVORN" data-kh="ភាព សុវ័ណ្ឌ">PHEAP SOVORN</p>
+          <p data-en="SIEM REAP" data-kh="សៀមរាប">SIEM REAP</p>
+          <p data-en="MONDAY - SUNDAY" data-kh="ច័ន្ទ - អាទិត្យ">MONDAY - SUNDAY</p>
+        </div>
+
+        <form id="contactForm" novalidate>
+          <h2 data-en="Let's work together" data-kh="តោះធ្វើការជាមួយគ្នា">Let's work together</h2>
+          <div id="formMessage" class="form-message" role="status" aria-live="polite"></div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">
+                <span data-en="First Name" data-kh="នាមខ្លួន">First Name</span>
+                <span class="req">*</span>
+              </label>
+              <input
+                type="text"
+                id="firstName"
+                name="firstName"
+                placeholder="First Name"
+                data-en-ph="First Name"
+                data-kh-ph="នាមខ្លួន"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="lastName">
+                <span data-en="Last Name" data-kh="នាមត្រកូល">Last Name</span>
+                <span class="req">*</span>
+              </label>
+              <input
+                type="text"
+                id="lastName"
+                name="lastName"
+                placeholder="Last Name"
+                data-en-ph="Last Name"
+                data-kh-ph="នាមត្រកូល"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="service" data-en="Service" data-kh="សេវាកម្ម">Service</label>
+            <select name="service" id="service">
+              <option value="" disabled selected data-en="Select a service" data-kh="ជ្រើសរើសសេវាកម្ម">Select a service</option>
+              <option value="website" data-en="Website" data-kh="គេហទំព័រ">Website</option>
+              <option value="mobile-app" data-en="Mobile App" data-kh="កម្មវិធីទូរស័ព្ទ">Mobile App</option>
+              <option value="portfolio" data-en="Portfolio" data-kh="ផលប័ត្រ">Portfolio</option>
+              <option value="poster" data-en="Poster" data-kh="ផ្ទាំងរូបភាព">Poster</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="email">
+              <span data-en="Email" data-kh="អ៊ីមែល">Email</span>
+              <span class="req">*</span>
+            </label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="example@gmail.com"
+              required
+              autocomplete="off"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">
+              <span data-en="Phone Number" data-kh="លេខទូរស័ព្ទ">Phone Number</span>
+              <span class="req">*</span>
+            </label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Enter your phone"
+              data-en-ph="Enter your phone"
+              data-kh-ph="បញ្ចូលលេខទូរស័ព្ទរបស់អ្នក"
+              required
+              autocomplete="off"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="message" data-en="Project Description" data-kh="ការពិពណ៌នាគម្រោង">Project Description</label>
+            <textarea
+              name="message"
+              id="message"
+              rows="4"
+              placeholder="Write any additional notes here..."
+              data-en-ph="Write any additional notes here..."
+              data-kh-ph="សរសេរកំណត់ចំណាំបន្ថែមនៅទីនេះ..."
+            ></textarea>
+          </div>
+
+          <label class="check">
+            <input type="checkbox" name="signup" />
+            <span data-en="Sign up for news and updates" data-kh="ចុះឈ្មោះសម្រាប់ព័ត៌មាន និងបច្ចុប្បន្នភាព">Sign up for news and updates</span>
+          </label>
+
+          <button type="submit" data-en="Submit" data-kh="ដាក់ស្នើ">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <button
+      id="toTop"
+      aria-label="Back to top"
+      data-en-aria="Back to top"
+      data-kh-aria="ត្រឡប់ទៅកំពូល"
+    >↑</button>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <div class="foot">
+        <div class="foot-col img-profile">
+          <img src="img/photo_2026-07-14_17-27-41-removebg-preview.png" alt="Pheap Sovorn" />
+          <h4 data-en="PHEAP SOVORN" data-kh="ភាព សុវ័ណ្ឌ">PHEAP SOVORN</h4>
+          <a href="tel:+855885136733">+855 885 136 733</a>
+          <a href="mailto:pheapsovorn@gmail.com">pheapsovorn@gmail.com</a>
+        </div>
+
+        <nav class="foot-col navigation" aria-label="Footer navigation">
+          <h4 data-en="Navigation" data-kh="ការរុករក">Navigation</h4>
+          <a href="#home" data-en="Home" data-kh="ទំព័រដើម">Home</a>
+          <a href="#about" data-en="About" data-kh="អំពី">About</a>
+          <a href="#skills" data-en="Skills" data-kh="ជំនាញ">Skills</a>
+          <a href="#projects" data-en="Projects" data-kh="គម្រោង">Projects</a>
+          <a href="#contact" data-en="Contact" data-kh="ទំនាក់ទំនង">Contact</a>
+        </nav>
+
+        <div class="foot-col skill-info">
+          <h4 data-en="Skills" data-kh="ជំនាញ">Skills</h4>
+          <div class="skill-list">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            <span>Node.js</span><span>React</span><span>MySQL</span>
+            <span>Python</span><span>Photoshop</span><span>Illustrator</span>
+          </div>
+        </div>
+
+        <div class="foot-col media">
+          <h4 data-en="Social" data-kh="បណ្តាញសង្គម">Social</h4>
+          <a href="#"><img src="img/facebook.svg" alt="" />Facebook</a>
+          <a href="#"><img src="img/threads.svg" alt="" />Threads</a>
+          <a href="#"><img src="img/twitter-x.svg" alt="" />X</a>
+          <a href="#"><img src="img/whatsapp.svg" alt="" />WhatsApp</a>
+          <a href="#"><img src="img/telegram.svg" alt="" />Telegram</a>
+          <a href="mailto:pheapsovorn@gmail.com"><img src="img/google.svg" alt="" />Email</a>
+        </div>
+      </div>
+
+      <div class="foot-bottom">
+        <p>© 2026 Pheap Sovorn. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
